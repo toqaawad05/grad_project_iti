@@ -51,7 +51,7 @@ class MyApp extends StatelessWidget {
             return HomeScreen();
           }
           // لو مش مسجّل يروح اللوجن
-          return LoginScreen();
+          return HomeScreen();
         },
       ),
     );
